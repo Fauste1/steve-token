@@ -23,7 +23,7 @@ import './IERC20.sol';
  * functions have been added to mitigate the well-known issues around setting
  * allowances. See {IERC20-approve}.
  */
-contract Steve is IERC20, IERC20Metadata {
+contract SteveLegacy is IERC20, IERC20Metadata {
 
   mapping (address => uint256) private _balances;
   mapping (address => mapping (address => uint256)) private _allowed;
